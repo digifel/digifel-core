@@ -1,0 +1,6 @@
+usr/local/bin/digifel-qt usr/bin
+share/pixmaps/digifel32.xpm usr/share/pixmaps
+share/pixmaps/digifel16.xpm usr/share/pixmaps
+share/pixmaps/digifel128.png usr/share/pixmaps
+debian/digifel-qt.desktop usr/share/applications
+debian/digifel-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/digifel_bg.qm</file>
+        <file alias="de">locale/digifel_de.qm</file>
+        <file alias="en">locale/digifel_en.qm</file>
+        <file alias="es">locale/digifel_es.qm</file>
+        <file alias="fi">locale/digifel_fi.qm</file>
+        <file alias="fr">locale/digifel_fr.qm</file>
+        <file alias="it">locale/digifel_it.qm</file>
+        <file alias="ja">locale/digifel_ja.qm</file>
+        <file alias="pl">locale/digifel_pl.qm</file>
+        <file alias="pt">locale/digifel_pt.qm</file>
+        <file alias="ru">locale/digifel_ru.qm</file>
+        <file alias="sk">locale/digifel_sk.qm</file>
+        <file alias="sv">locale/digifel_sv.qm</file>
+        <file alias="vi">locale/digifel_vi.qm</file>
+        <file alias="zh_CN">locale/digifel_zh_CN.qm</file>
+        <file alias="zh_TW">locale/digifel_zh_TW.qm</file>
+    </qresource>
+</RCC>

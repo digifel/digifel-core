@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Digifel
+Comment=Digifel P2P Cryptocurrency
+Comment[fr]=Digifel, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Digifel, eşten eşe kriptografik sanal para birimi
+Exec=digifel-qt %u
+Terminal=false
+Type=Application
+Icon=digifel128
+MimeType=x-scheme-handler/digifel;
+Categories=Office;Finance;

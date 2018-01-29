@@ -1,0 +1,33 @@
+# /etc/conf.d/digifeld: config file for /etc/init.d/digifeld
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/digifelcore/digifel.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/digifeld"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/digifeld.pid"
+
+# Where to write digifeld data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/digifeld"
+
+# User and group to own digifeld process
+#BITCOIND_USER="digifelcore"
+#BITCOIND_GROUP="digifelcore"
+
+# Path to digifeld executable
+#BITCOIND_BIN="/usr/bin/digifeld"
+
+# Nice value to run digifeld under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60
